@@ -11,6 +11,6 @@
 ## 1. Selectors and content checking
 
 - [x] there are an h1 with page title
-- [ ] there are a link to the about page
-- [ ] there are a footer with doc-credits
-- [ ] there are buttons for manipulate data
+- [x] there are a link to the about page
+- [x] there are a footer with doc-credits role
+- [x] there are four buttons for manipulate data

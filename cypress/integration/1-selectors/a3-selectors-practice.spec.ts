@@ -11,4 +11,17 @@ describe("The _budget_ home page", () => {
   it("should have an h1 with the page title", () => {
     cy.get("h1").should("contain", "Budget");
   });
+
+  it("should have a link to the _about_ page", () => {
+    cy.get("a").contains("About").should("have.attr", "href", "/angular-budget/about");
+  });
+
+  it("should have a footer with role _doc-credits_", () => {
+    cy.get('[role="doc-credits"]').should("be.visible");
+  });
+
+  it("should display four data buttons", () => {
+    // Count elements found
+    cy.get(".card-footer-item.button").should("have.length", 4);
+  });
 });
