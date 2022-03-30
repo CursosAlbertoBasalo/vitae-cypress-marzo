@@ -1,1 +1,6 @@
-{}
+{
+  "baseUrl": "https://angularbuilders.github.io/angular-budget/",
+  "viewportWidth": 1440,
+  "viewportHeight": 900,
+  "defaultCommandTimeout": 2000
+}
