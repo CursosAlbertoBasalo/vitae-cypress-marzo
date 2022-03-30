@@ -14,3 +14,8 @@
 - [x] there are a link to the about page
 - [x] there are a footer with doc-credits role
 - [x] there are four buttons for manipulate data
+
+## 2. Manipulate data
+
+- [x] GIVEN the login form filled with _fake_ data, WHEN click on _reset_ button THEN should clear inputs
+- [x] GIVEN the login form filled with _fake_ data, WHEN click on _login_ button THEN should display an _aside_ with _Not found_ message
