@@ -12,20 +12,10 @@
     "experimentalDecorators": true,
     "sourceMap": true,
     "outDir": "./dist/",
-    "types": [
-      "node",
-      "cypress"
-    ],
-    "lib": [
-      "ES6",
-      "DOM"
-    ],
+    "types": ["node", "cypress"],
+    "lib": ["ES6", "DOM"],
     "paths": {}
   },
-  "include": [
-    "**/*.ts"
-  ],
-  "exclude": [
-    "node_modules",
-  ]
+  "include": ["**/*.ts"],
+  "exclude": ["node_modules"]
 }

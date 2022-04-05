@@ -1,40 +1,22 @@
 {
   "Cypress it should": {
     "prefix": "cy-it",
-    "body": [
-      "it('should do something', () => {",
-      "\t$1",
-      "})"
-    ],
+    "body": ["it('should do something', () => {", "\t$1", "})"],
     "description": "Creates an empty it function"
   },
   "Cypress before": {
     "prefix": "cy-b",
-    "body": [
-      "before(() => {",
-      "\t$1",
-      "})"
-    ],
+    "body": ["before(() => {", "\t$1", "})"],
     "description": "Creates an empty function to run before all tests in a suite"
   },
   "Cypress before each": {
     "prefix": "cy-b-e",
-    "body": [
-      "beforeEach(() => {",
-      "\t$1",
-      "})"
-    ],
+    "body": ["beforeEach(() => {", "\t$1", "})"],
     "description": "Creates an empty function to run before each test in a suite"
   },
   "Cypress describe it should": {
     "prefix": "cy-d-it",
-    "body": [
-      "describe('an scenario', () => {",
-      "\tit('should do something', () => {",
-      "\t\t$1",
-      "\t})",
-      "})"
-    ],
+    "body": ["describe('an scenario', () => {", "\tit('should do something', () => {", "\t\t$1", "\t})", "})"],
     "description": "Creates a simple describe it function"
   },
   "Cypress Given When Then": {
