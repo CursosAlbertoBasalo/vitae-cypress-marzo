@@ -26,6 +26,12 @@
 
 - [x] Refactor using a **PageObject**
 
-- [ ] GIVEN the _projects add_ page WHEN the form is correctly filled THEN should be able to submit
-- [ ] GIVEN the _projects add_ page WHEN the user clears the form THEN should not be able to submit
-- [ ] GIVEN a _projects add_ form already filled WHEN the anonymous user submits the form THEN should be navigated to login page
+- [x] GIVEN the _projects add_ page WHEN the form is correctly filled THEN should be able to submit
+- [x] GIVEN the _projects add_ page WHEN the user clears the form THEN should not be able to submit
+- [x] GIVEN a _projects add_ form already filled WHEN the anonymous user submits the form THEN should be navigated to login page
+
+## 3. Communication with the server
+
+- [x] GIVEN the dashboard on the _home_ page, WHEN projects get loaded from the API server THEN should display those projects
+- [x] GIVEN the _Add new project_ page, connected to a teapot WHEN fill the form and submit to serve THEN correct data should be posted as a payload
+- [ ] GIVEN the dashboard on the _home_ page' WHEN get no projects from server THEN show _Something went wrong..._ in _message_ class

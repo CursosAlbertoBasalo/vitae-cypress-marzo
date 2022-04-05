@@ -2,5 +2,8 @@
   "baseUrl": "https://angularbuilders.github.io/angular-budget/",
   "viewportWidth": 1440,
   "viewportHeight": 900,
-  "defaultCommandTimeout": 2000
+  "defaultCommandTimeout": 2000,
+  "env": {
+    "apiUrl": "https://proton-api-rest.herokuapp.com/v1/"
+  }
 }
