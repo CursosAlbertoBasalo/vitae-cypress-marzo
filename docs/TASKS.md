@@ -25,3 +25,7 @@
 - [x] GIVEN the _about_ link on the _home_ page, WHEN is clicked, THEN should display _About_ as the title.
 
 - [x] Refactor using a **PageObject**
+
+- [ ] GIVEN the _projects add_ page WHEN the form is correctly filled THEN should be able to submit
+- [ ] GIVEN the _projects add_ page WHEN the user clears the form THEN should not be able to submit
+- [ ] GIVEN a _projects add_ form already filled WHEN the anonymous user submits the form THEN should be navigated to login page
