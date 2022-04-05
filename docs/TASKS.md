@@ -23,3 +23,5 @@
 - [x] GIVEN the login form filled with _fake_ data, WHEN click on _reset_ button THEN should clear inputs
 - [x] GIVEN the login form filled with _fake_ data, WHEN click on _login_ button THEN should display an _aside_ with _Not found_ message
 - [x] GIVEN the _about_ link on the _home_ page, WHEN is clicked, THEN should display _About_ as the title.
+
+- [x] Refactor using a **PageObject**

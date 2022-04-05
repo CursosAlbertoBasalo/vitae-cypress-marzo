@@ -1,16 +1,26 @@
 // 📋 To do:
-class LoginPage {
-  private emailQ = "input[name=email]";
-
-  get email() {
-    return this.getEmail();
+export class LoginPage {
+  get emailInput() {
+    return cy.get("input[name=email]");
+  }
+  get passwordInput() {
+    return cy.get("input[name=password]");
+  }
+  get submitButton() {
+    return cy.get("button[type=submit]");
+  }
+  get resetButton() {
+    return cy.get("button[type=reset]");
+  }
+  get aside() {
+    return cy.get("aside");
   }
 
-  public reset() {
-    this.email.clear().type("invalid@world.org");
-    cy.get("input[name=password]").clear().type("invalidPassword");
-  }
-  public getEmail() {
-    return cy.get(this.emailQ);
+  readonly path = "/login";
+
+  visit() {
+    cy.visit(this.path, {
+      failOnStatusCode: false,
+    });
   }
 }
