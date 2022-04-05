@@ -1,3 +1,7 @@
+// [x] GIVEN a user navigated to _login_ page, WHEN the form is not filled correctly, THEN _submit_ should be disabled.
+// [x] GIVEN a user navigated to _login_ page, WHEN the form is filled correctly, THEN _submit_ should be enabled.
+// [x] GIVEN a user navigated to _login_ page, WHEN click on _reset_ button, THEN _submit_ should be disabled AND THEN _email_ should be empty.
+
 describe("GIVEN a user navigated to _login_ page", () => {
   before(() => {
     // Arrange

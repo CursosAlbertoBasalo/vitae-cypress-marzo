@@ -1,3 +1,5 @@
+// [x] GIVEN the _about_ link on the _home_ page, WHEN is clicked, THEN should display _About_ as the title.
+
 describe("GIVEN the _about_ link on the _home_ page ", () => {
   beforeEach(() => {
     cy.visit("/");

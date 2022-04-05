@@ -17,5 +17,9 @@
 
 ## 2. Manipulate data
 
+- [x] GIVEN a user navigated to _login_ page, WHEN the form is not filled correctly, THEN _submit_ should be disabled.
+- [x] GIVEN a user navigated to _login_ page, WHEN the form is filled correctly, THEN _submit_ should be enabled.
+- [x] GIVEN a user navigated to _login_ page, WHEN click on _reset_ button, THEN _submit_ should be disabled AND THEN _email_ should be empty.
 - [x] GIVEN the login form filled with _fake_ data, WHEN click on _reset_ button THEN should clear inputs
 - [x] GIVEN the login form filled with _fake_ data, WHEN click on _login_ button THEN should display an _aside_ with _Not found_ message
+- [x] GIVEN the _about_ link on the _home_ page, WHEN is clicked, THEN should display _About_ as the title.
