@@ -6,6 +6,11 @@ import { ProjectsAddPage } from "../../support/pages/projects-add.page";
 
 describe("GIVEN the _projects add_ page ", () => {
   let projectsAddPage: ProjectsAddPage;
+  const inputData = {
+    name: "Collapse global maritime traffic",
+    budget: 1234,
+    starDate: "2021-03-23",
+  };
   beforeEach(() => {
     projectsAddPage = new ProjectsAddPage();
     projectsAddPage.visit();
