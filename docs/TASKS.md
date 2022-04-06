@@ -34,4 +34,4 @@
 
 - [x] GIVEN the dashboard on the _home_ page, WHEN two projects get loaded from the API server THEN should display two projects
 - [x] GIVEN the _Add new project_ page, connected to a teapot WHEN fill the form and submit to serve THEN correct data should be posted as a payload
-- [ ] GIVEN the dashboard on the _home_ page' WHEN get no projects from server THEN show _Something went wrong..._ in _message_ class
+- [ ] GIVEN the dashboard on the _home_ page' WHEN get no projects from server THEN show _Something went wrong..._ with a _message_ class
