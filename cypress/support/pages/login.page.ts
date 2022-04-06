@@ -28,4 +28,9 @@ export class LoginPage {
     this.emailInput.clear().type("admin@world.org");
     this.passwordInput.clear().type("S3cr3t");
   }
+  login() {
+    this.visit();
+    this.fillReal();
+    this.submitButton.click();
+  }
 }

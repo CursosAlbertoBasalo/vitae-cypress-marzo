@@ -9,9 +9,10 @@ describe("GIVEN an authenticated user visiting the _projectsAdd_ page ", () => {
   let newId = "";
   let authorization = "";
   before(() => {
-    loginPage.visit();
-    loginPage.fillReal();
-    loginPage.submitButton.click();
+    // loginPage.visit();
+    // loginPage.fillReal();
+    // loginPage.submitButton.click();
+    loginPage.login();
     // ToDo: delete already created project
     cy.intercept("POST", url).as("postProject");
     projectsAddPage.visit();
