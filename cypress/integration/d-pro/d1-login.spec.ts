@@ -5,10 +5,10 @@ import { ProjectsAddPage } from "../../support/pages/projects-add.page";
 describe("GIVEN an authenticated user visiting the _projectsAdd_ page ", () => {
   const loginPage = new LoginPage();
   const projectsAddPage = new ProjectsAddPage();
+  const url = Cypress.env("apiUrl") + "projects";
   let newId = "";
   let authorization = "";
   before(() => {
-    const url = Cypress.env("apiUrl") + "projects";
     loginPage.visit();
     loginPage.fillReal();
     loginPage.submitButton.click();
