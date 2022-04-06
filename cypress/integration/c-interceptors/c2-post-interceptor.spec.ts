@@ -18,7 +18,7 @@ describe("GIVEN the _Add new project_ page, connected to a teapot", () => {
   context("WHEN fill the form and submit to server", () => {
     beforeEach(() => {
       // Act
-      projectsAddPage.fillCorrectlyFromFixture();
+      projectsAddPage.fillAndSubmitCorrectlyFromFixture();
       projectsAddPage.submitButton.click();
     });
     it("THEN correct data should be posted as a payload ", () => {

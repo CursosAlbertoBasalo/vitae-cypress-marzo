@@ -23,4 +23,9 @@ export class LoginPage {
       failOnStatusCode: false,
     });
   }
+
+  fillReal() {
+    this.emailInput.clear().type("admin@world.org");
+    this.passwordInput.clear().type("S3cr3t");
+  }
 }
