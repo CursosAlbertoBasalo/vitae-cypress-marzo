@@ -29,12 +29,14 @@ export class ProjectsAddPage extends BasePage {
   }
 
   fillCorrectlyFromData(newProject: any) {
+    // expressive
     cy.get("input[name=name]").clear().type(newProject.name);
     cy.get("input[name=budget]").clear().type(newProject.budget.toString());
     cy.get("input[name=startDate]").clear().type(newProject.starDate);
   }
 
   fillCorrectlyFromFixture() {
+    // magical
     this.resetForm();
     cy.fixture(this.newProjectFile) // load input data from json file
       .then(newProject => {
@@ -45,6 +47,7 @@ export class ProjectsAddPage extends BasePage {
   }
 
   fillFromFixture(fixtureName: string) {
+    // intermediate
     this.resetForm();
     cy.fixture(fixtureName) // load input data from json file
       .then(newProject => {

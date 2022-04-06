@@ -29,7 +29,7 @@
     ],
     "max-depth": [
       "warn",
-      3
+      5
     ],
     "max-lines": [
       "warn",
@@ -45,7 +45,7 @@
     ],
     "max-nested-callbacks": [
       "warn",
-      3
+      5
     ],
     "max-params": [
       "warn",

@@ -1,12 +1,12 @@
 // - [x] GIVEN the _projects add_ page WHEN the form is correctly filled THEN should be able to submit
-// - [ ] GIVEN the _projects add_ page WHEN the user clears the form THEN should not be able to submit
-// - [ ] GIVEN a _projects add_ form already filled WHEN the anonymous user submits the form THEN should be navigated to login page
+// - [x] GIVEN the _projects add_ page WHEN the user clears the form THEN should not be able to submit
+// - [x] GIVEN a _projects add_ form already filled WHEN the anonymous user submits the form THEN should be navigated to login page
 
 import { ProjectsAddPage } from "../../support/pages/projects-add.page";
 
 describe("GIVEN the _projects add_ page ", () => {
   let projectsAddPage: ProjectsAddPage;
-  const inputData = {
+  const inputDataOnTheTest = {
     name: "Collapse global maritime traffic",
     budget: 1234,
     starDate: "2021-03-23",
@@ -34,6 +34,7 @@ describe("GIVEN the _projects add_ page ", () => {
   });
   context("WHEN the user clears the form", () => {
     beforeEach(() => {
+      // alternate way
       // cy.get("@newProject").then(newProject => projectsAddPage.fillCorrectlyFromData(newProject));
       projectsAddPage.fillFromFixture("new-project");
       projectsAddPage.resetForm();
