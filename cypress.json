@@ -4,6 +4,7 @@
   "viewportHeight": 900,
   "defaultCommandTimeout": 2000,
   "env": {
-    "apiUrl": "https://proton-api-rest.herokuapp.com/v1/"
+    "apiUrl": "https://proton-api-rest.herokuapp.com/v1/",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IndvcmxkX2FkbWluIiwic3RrIjoiMTY0OTIzNzUzMDIzMiIsImlhdCI6MTY0OTIzNzUzMH0.Ep7Y-8dnGGJ3AYpLGVQkCe1gvYLr13YQf7OIBtmiVM0"
   }
 }

@@ -18,7 +18,10 @@
   },
   "scripts": {
     "start": "cypress open",
-    "test": "cypress run",
+    "test": "cypress run  -C cypress-production.json > cypress/reports/results.txt",
+    "test:junit": "cypress run -C cypress-production-junit.json",
+    "test:spec": "cypress run -C cypress-production-spec.json --spec ",
+    "test:city": "cypress run -C cypress-production-city.json --spec > cypress/reports/city.txt",
     "format": "prettier --write \"./**/*.{ts,json}\"",
     "lint": "eslint cypress --ext .ts",
     "lint:fix": "npm run lint -- --fix",

@@ -1,0 +1,18 @@
+{
+  "baseUrl": "https://angularbuilders.github.io/angular-budget/",
+  "viewportWidth": 1240,
+  "viewportHeight": 740,
+  "screenshotOnRunFailure": false,
+  "video": false,
+  "env": {
+    "apiUrl": "https://proton-api-rest.herokuapp.com/v1/",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IndvcmxkX2FkbWluIiwic3RrIjoiMTY0OTIzNzUzMDIzMiIsImlhdCI6MTY0OTIzNzUzMH0.Ep7Y-8dnGGJ3AYpLGVQkCe1gvYLr13YQf7OIBtmiVM0",
+    "production": true
+  },
+  "reporter": "spec",
+  "reporterOptions": {
+    "reportFilename": "cypress/reports/results.txt",
+    "overwrite": true,
+    "toConsole": true
+  }
+}
